@@ -1,0 +1,39 @@
+body {
+    font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
+    background: #edf7fa;  
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(9, 9, 189);
+}
+h2 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(31, 51, 230);
+}
+
+.container {
+    margin: 20px auto;  
+    max-width: 500px; 
+    border: 5px solid rgb(31, 150, 230);
+    border-radius: 10px;
+    padding: 0;
+} 
+
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(31, 51, 230);
+    margin: 0;
+}
+.units {
+     position: relative;
+     top: -20px;
+     font-size: 18px;  
+}
+.main {
+    font-size: 18px;
+    color: rgb(9, 9, 189);
+    font-weight: bold;
+}

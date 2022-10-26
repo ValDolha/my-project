@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="src/project.css" rel="stylesheet" type="text/css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather</title>
+</head>
+<body>
+    <div class= "container">
+        <div class="card">
+          <div class="card-body">
+
+             <form id="search-form">
+             <div class="row"> 
+
+             <div class="col-6"> 
+             <input 
+             type="text" 
+             id="user-city" 
+             placeholder="Enter a city"
+             class="form-control shadow-sm"
+             autofocus="on"
+             autocomplete="off">
+             </div>
+
+             <div class="col-3">
+             <input 
+             type="submit" id = "user-search" 
+             value="🔍 Search"
+             class = "form-control btn btn-primary shadow-sm">
+             </div>
+
+             <div class="col-3">
+             <input 
+             type="submit" id = "current-city" 
+             value="Current"
+             class = "form-control btn btn-success shadow-sm">
+             </div>
+             </div> 
+             </form>
+        </p>
+        
+        <h1 id = "city">
+        </h1>
+        <p>
+        <div class="row">
+            <div class="col-sm">
+                <p >
+                    <h5 id="today"></h5>
+                    <br/>
+                    <span class= main id="cloud"></span>
+                    <br>
+                    Humidity: <span id="humidity"></span>%
+                    <br>
+                    Wind: <span id="wind"></span> km/h
+                </p>
+            </div>
+            <div class="col-sm">
+                <p >
+                    <h2>
+                      <span id = "temperatureCity">  </span>
+                      <span class="units">
+                        <a href ="#" id ="celsius">°C</a> / 
+                        <a href ="#" id ="fahrenheit">°F</a>
+                    </span>
+                    </h2> 
+                </p>
+            </div>   
+        </div>   
+        </p>
+
+      </div>
+     </div>
+    </div>
+
+    <script src="src/index-shecodes.js"> </script>
+</body>
+</html>
