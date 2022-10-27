@@ -5,14 +5,14 @@ body {
 h1 {
     font-size: 40px;
     font-weight: bold;
+    font-style: italic;
     color: rgb(9, 9, 189);
 }
-h2 {
+.temperatureCity {
     font-size: 50px;
     font-weight: bold;
     color: rgb(31, 51, 230);
 }
-
 .container {
     margin: 20px auto;  
     max-width: 500px; 
@@ -20,11 +20,8 @@ h2 {
     border-radius: 10px;
     padding: 0;
 } 
-
 h5 {
     font-size: 20px;
-    font-weight: bold;
-    color: rgb(31, 51, 230);
     margin: 0;
 }
 .units {
@@ -32,8 +29,10 @@ h5 {
      top: -20px;
      font-size: 18px;  
 }
+.celsius, .fahrenheit {
+    text-decoration: none;
+}
 .main {
     font-size: 18px;
-    color: rgb(9, 9, 189);
     font-weight: bold;
 }
