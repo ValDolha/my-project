@@ -16,8 +16,6 @@ h1 {
 .container {
     margin: 20px auto;  
     max-width: 500px; 
-    border: 5px solid rgb(31, 150, 230);
-    border-radius: 10px;
     padding: 0;
 } 
 h5 {
@@ -35,4 +33,15 @@ h5 {
 .main {
     font-size: 18px;
     font-weight: bold;
+}
+.link {
+    font-size: 14px;
+    text-align: left;
+}
+.linkGitHub {
+    text-decoration: none;
+}
+.card {
+    border: 5px solid rgb(31, 150, 230);
+    border-radius: 10px;
 }
