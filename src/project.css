@@ -1,20 +1,23 @@
 body {
     font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
-    background: #edf7fa;  
+    background:  #f2f7f8;  
 }
 h1 {
     font-size: 40px;
     font-weight: bold;
-    font-style: italic;
     color: rgb(9, 9, 189);
+}
+h1, h5 {
+    position: relative;
+    left: 12px; 
 }
 .temperatureCity {
     font-size: 50px;
     font-weight: bold;
-    color: rgb(31, 51, 230);
+    color: rgb(9, 9, 189);
 }
 .container {
-    margin: 20px auto;  
+    margin: 80px auto;  
     max-width: 500px; 
     padding: 0;
 } 
@@ -22,12 +25,25 @@ h5 {
     font-size: 20px;
     margin: 0;
 }
+.icon-today {
+   position: relative;
+   top: 10px;
+   left: 30px; 
+}
 .units {
      position: relative;
      top: -20px;
-     font-size: 18px;  
+     font-size: 20px; 
 }
 .celsius, .fahrenheit {
+    text-decoration: none;
+}
+.active {
+    color: rgb(9, 9, 189);
+    cursor: default;
+    font-weight: bold;
+}
+.active:hover {
     text-decoration: none;
 }
 .main {
@@ -42,6 +58,31 @@ h5 {
     text-decoration: none;
 }
 .card {
-    border: 5px solid rgb(31, 150, 230);
+    box-shadow: rgba(52, 55, 145, 0.08) 0px 20px 20px 0;
     border-radius: 10px;
+    background: radial-gradient(circle at 10% 20%, rgb(226, 240, 254) 0%, rgb(255, 247, 228) 90%);
+}
+ .forecast {
+    text-align: center;
+    margin: 0 auto;  
+}
+.card-week {
+    box-shadow: rgba(52, 55, 145, 0.08) 5px 5px 5px 5px;
+    border-radius: 10px;
+    color:rgb(31, 51, 230); 
+    background: #fff;
+}
+.card-week:hover {
+    cursor: pointer;
+    background: #e3f4fa;   
+}
+.card-temp {
+    box-shadow: rgba(52, 55, 145, 0.08) 2px 2px 2px 2px;
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    margin: 10px;
+    color: rgb(9, 9, 189);
+    position: relative;
+    left: 12px;  
 }
