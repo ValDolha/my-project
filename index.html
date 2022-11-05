@@ -13,10 +13,8 @@
     <div class= "container">
         <div class="card">
           <div class="card-body">
-
              <form id="search-form">
              <div class="row"> 
-
              <div class="col-6"> 
              <input 
              type="text" 
@@ -42,16 +40,31 @@
              </div>
              </div> 
              </form>
-        </p>
-        
+        </p> 
+        <div class="row"> 
+          <div class="col">
         <h1 id = "city">
         </h1>
+         <h5 id="today"></h5>
+         </div>
+         <div class="col icon-today">
+          <img src="" alt="" id="icon"/> 
+         </div>
         <p>
         <div class="row">
-            <div class="col-sm">
+            <div class="col card-temp">
                 <p >
-                    <h5 id="today"></h5>
-                    <br/>
+                    <h2>
+                      <span id = "temperatureCity" class="temperatureCity">  </span>
+                      <span class="units">
+                        <a href ="#" id ="celsius" class= "celsius" class="active">°C</a> /
+                        <a href ="#" id ="fahrenheit" class="fahrenheit" >°F</a>
+                    </span>
+                    </h2> 
+                </p>
+            </div>
+            <div class="col card-temp">
+                <p> 
                     <span class= main id="cloud"></span>
                     <br>
                     Humidity: <span id="humidity"></span>%
@@ -59,27 +72,54 @@
                     Wind: <span id="wind"></span> km/h
                 </p>
             </div>
-            <div class="col-sm">
-                <p >
-                    <h2>
-                    <span id = "temperatureCity" class="temperatureCity"> 
-                    </span>
-                    <span class="units">
-                        <a href ="#" id ="celsius" class="celsius">°C</a> / 
-                        <a href ="#" id ="fahrenheit" class="fahrenheit">°F</a>
-                    </span>
-                    </h2> 
-                </p>
-            </div>   
         </div>   
         </p>
+        <p>
+        <div class="row forecast">
 
+          <div class="col">
+            <div class="card-week">
+              <h6 class="card-day">Mon</h6>
+              <p>🌦️</p>
+              <p class="card-text">18 °C</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-week">
+              <h6 class="card-day">Tue</h6>
+              <p>🌧️</p>
+              <p class="card-text">18 °C</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-week">
+              <h6 class="card-day">Wed</h6>
+              <p>🌧️</p>
+              <p class="card-text">17 °C</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card-week">
+              <h6 class="card-day">Thu</h6>
+              <p>🌧️</p>
+              <p class="card-text">19 °C</p>
+            </div>
+        </div>
+          <div class="col">
+            <div class="card-week">
+              <h6 class="card-day">Fri</h6>
+              <p>🌞</p>
+              <p class="card-text">21 °C</p>
+            </div>
+          </div>
+        </div>
+    </p>
       </div>
      </div>
-    <div class="link">
-    <a href="https://github.com/ValDolha/my-project/commits?author=ValDolha" class="linkGitHub" target="_blank"> Open-source code</a>, by Valentyna Dolha
     </div>
-</div>
-    <script src="src/index-shecodes.js"> </script>
+    <div class="link">
+    <a href="https://github.com/ValDolha/my-project/commits?author=ValDolha" class="linkGitHub" target="_blank"> Open-source code</a> by Valentyna Dolha
+    </div>
+    <script src="src/index.js"> </script>
 </body>
 </html>
