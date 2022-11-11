@@ -36,7 +36,7 @@ h5 {
      font-size: 20px; 
 }
 .celsius, .fahrenheit {
-    text-decoration: none;
+    text-decoration: none; 
 }
 .active {
     color: rgb(9, 9, 189);
@@ -45,10 +45,14 @@ h5 {
 }
 .active:hover {
     text-decoration: none;
+    
 }
 .main {
     font-size: 18px;
     font-weight: bold;
+}
+p:first-letter {
+    text-transform: capitalize;
 }
 .link {
     font-size: 14px;
@@ -73,7 +77,7 @@ h5 {
     background: #fff;
 }
 .card-week:hover {
-    cursor: pointer;
+    
     background: #e3f4fa;   
 }
 .card-temp {
@@ -85,4 +89,7 @@ h5 {
     color: rgb(9, 9, 189);
     position: relative;
     left: 12px;  
+}
+.minTemp {
+  opacity: 0.5;
 }
