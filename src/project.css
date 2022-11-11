@@ -2,6 +2,11 @@ body {
     font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
     background:  #f2f7f8;  
 }
+.search-form {
+    margin-left: 10px;
+    margin-right: 10px;  
+    margin-top: 10px;
+}
 h1 {
     font-size: 40px;
     font-weight: bold;
@@ -34,18 +39,7 @@ h5 {
      position: relative;
      top: -20px;
      font-size: 20px; 
-}
-.celsius, .fahrenheit {
-    text-decoration: none; 
-}
-.active {
-    color: rgb(9, 9, 189);
-    cursor: default;
-    font-weight: bold;
-}
-.active:hover {
-    text-decoration: none;
-    
+     font-weight: bold;
 }
 .main {
     font-size: 18px;
@@ -75,9 +69,9 @@ p:first-letter {
     border-radius: 10px;
     color:rgb(31, 51, 230); 
     background: #fff;
+    font-size: 18px;
 }
 .card-week:hover {
-    
     background: #e3f4fa;   
 }
 .card-temp {
