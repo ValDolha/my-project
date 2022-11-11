@@ -14,7 +14,7 @@
         <div class="card">
           <div class="card-body">
 
-             <form id="search-form">
+             <form id="search-form" class="search-form">
              <div class="row"> 
 
              <div class="col-6"> 
@@ -31,14 +31,14 @@
              <input 
              type="submit" id = "user-search" 
              value="🔍 Search"
-             class = "form-control btn btn-primary shadow-sm">
+             class = "form-control btn btn-outline-primary shadow-sm">
              </div>
 
              <div class="col-3">
              <input 
              type="submit" id = "current-city" 
              value="Current"
-             class = "form-control btn btn-success shadow-sm">
+             class = "form-control btn btn-outline-success shadow-sm">
              </div>
              </div> 
              </form>
@@ -59,10 +59,7 @@
                 <p >
                     <h2>
                       <span id = "temperatureCity" class="temperatureCity">  </span>
-                      <span class="units">
-                        <a href ="#" id ="celsius" class= "celsius" class="active">°C</a> /
-                        <a href ="#" id ="fahrenheit" class="fahrenheit" >°F</a>
-                    </span>
+                      <span class="units">°C</span>
                     </h2> 
                 </p>
             </div>
